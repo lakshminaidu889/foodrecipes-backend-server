@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&@a&_0iez%)z&1jyw(ipu!w6#o_7hh^im=p1)3jl8%tw+v-^_h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
@@ -128,5 +128,5 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
-CORS_ALLOWED_ORIGINS=[ 'http://localhost:5173/','.onrender.com']
+CORS_ALLOWED_ORIGINS=[ 'http://localhost:5173/']
 # EVERIKI PAMPINCHALI
