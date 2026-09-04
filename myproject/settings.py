@@ -128,4 +128,5 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
-CORS_ALLOWED_ORIGINS=[ 'http://localhost:5173/']
+CORS_ALLOWED_ORIGINS=[ 'http://localhost:5173/','.render.com']
+# EVERIKI PAMPINCHALI
